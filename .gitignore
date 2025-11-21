@@ -1,4 +1,6 @@
 # FiveM Server Files
+server-files/
+fivem-server/
 cache/
 server.log
 *.log
