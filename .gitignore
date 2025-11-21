@@ -1,0 +1,45 @@
+# FiveM Server Files
+cache/
+server.log
+*.log
+
+# Config Files (อาจมี sensitive data)
+# server.cfg
+
+# Database Backups
+*.sql.gz
+*.sql.bak
+backups/
+
+# Node modules
+node_modules/
+package-lock.json
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary Files
+temp/
+tmp/
+*.tmp
+
+# Resource builds
+**/dist/
+**/build/
+
+# Credentials
+.env
+credentials.json
+config.json
+
+# Cache
+.cache/
