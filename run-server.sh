@@ -46,4 +46,4 @@ exec "$ALPINE_DIR/opt/cfx-server/ld-musl-x86_64.so.1" \
     -- \
     "$ALPINE_DIR/opt/cfx-server/FXServer" \
     +set citizen_dir "$ALPINE_DIR/opt/cfx-server/citizen/" \
-    +exec "$SCRIPT_DIR/server-minimal.cfg"
+    +exec "$SCRIPT_DIR/server-basic.cfg"
